@@ -1,0 +1,1 @@
+// src/components/HowItWorks.tsx created by Execution Agent

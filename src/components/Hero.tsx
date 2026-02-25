@@ -1,0 +1,1 @@
+// src/components/Hero.tsx created by Execution Agent

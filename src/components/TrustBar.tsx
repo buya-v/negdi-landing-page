@@ -1,0 +1,1 @@
+// src/components/TrustBar.tsx created by Execution Agent

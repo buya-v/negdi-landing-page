@@ -1,0 +1,308 @@
+{
+  "customerPersona": {
+    "id": "customer-1",
+    "name": "Bat-Erdene Bold",
+    "role": "Founder & CEO",
+    "company": "Negdi",
+    "background": "A former investment analyst with over 10 years of experience in the Mongolian financial sector and an MBA from a top-tier international university. He returned to Mongolia to modernize the local investment landscape by leveraging community-driven fintech solutions.",
+    "goals": [
+      "Maximize the conversion rate of visitors into active mobile app users",
+      "Establish Negdi as the most trusted brand for retail micro-investing in Mongolia",
+      "Streamline the user education process to explain social investing in under 30 seconds"
+    ],
+    "painPoints": [
+      "The existing digital presence lacks the 'wow factor' needed to compete with established banks",
+      "High friction in the user onboarding funnel leading to significant drop-offs before app installation",
+      "Difficulty in balancing a professional financial aesthetic with a modern, approachable tech brand"
+    ],
+    "successMetrics": [
+      "20% increase in app store click-through rate from the landing page",
+      "Reduction in bounce rate for mobile-first visitors",
+      "Positive feedback from potential Series A investors regarding brand positioning"
+    ],
+    "communicationStyle": "Direct and results-oriented; prefers high-level strategic updates via email and data-driven progress reports on a weekly basis.",
+    "technicalLevel": "semi-technical"
+  },
+  "userPersonas": [
+    {
+      "id": "user-1",
+      "name": "Anar Battulga",
+      "role": "Primary Micro-Investor",
+      "age": "22-26",
+      "occupation": "Junior Content Creator",
+      "background": "A recent university graduate living in Ulaanbaatar who has just started her first full-time job. She is eager to build financial independence but finds traditional banking products boring and intimidating.",
+      "goals": [
+        "Start investing with small amounts of spare change (under 20,000 MNT)",
+        "Learn how the stock market works through a simple, non-technical interface",
+        "Protect her monthly savings from the high inflation rates in Mongolia"
+      ],
+      "frustrations": [
+        "Traditional brokerage firms require too much paperwork and high initial deposits",
+        "Financial jargon makes her feel like she isn't smart enough to invest",
+        "Most investment platforms look outdated and are difficult to use on a smartphone"
+      ],
+      "behaviors": [
+        "Spends 4+ hours a day on social media (Instagram and TikTok)",
+        "Uses QPay or SocialPay for almost every purchase",
+        "Likely to sign up for a service if recommended by a trusted influencer"
+      ],
+      "technicalLevel": "intermediate",
+      "frequency": "daily",
+      "devices": [
+        "mobile"
+      ],
+      "accessibility": [
+        "Requires high-contrast UI for readability while commuting on bright buses"
+      ]
+    },
+    {
+      "id": "user-2",
+      "name": "Ganbat Sukhbaatar",
+      "role": "Secondary Trust-Focused Investor",
+      "age": "38-45",
+      "occupation": "Logistics Manager",
+      "background": "A father of two who has traditionally relied on savings accounts. He is skeptical of 'get rich quick' schemes and digital-only apps but is looking for better returns than what commercial banks offer.",
+      "goals": [
+        "Verify the legal legitimacy and partnership status of the platform",
+        "Set up a long-term 'set-and-forget' investment plan for his children's education",
+        "Easily withdraw funds in case of a family emergency"
+      ],
+      "frustrations": [
+        "Lack of transparency regarding fees and commissions",
+        "Difficulty finding physical office addresses or official licenses on fintech websites",
+        "Complicated navigation that hides the 'Withdraw' button"
+      ],
+      "behaviors": [
+        "Checks the 'About Us' and 'FAQ' sections before even looking at the product",
+        "Prefers reading detailed articles or terms of service on a larger screen",
+        "Highly values customer support responsiveness"
+      ],
+      "technicalLevel": "beginner",
+      "frequency": "monthly",
+      "devices": [
+        "desktop",
+        "mobile"
+      ],
+      "accessibility": [
+        "Needs adjustable font sizes and clear, large buttons"
+      ]
+    },
+    {
+      "id": "user-3",
+      "name": "Saruul Zorig",
+      "role": "Primary Tech-Savvy Investor",
+      "age": "28-34",
+      "occupation": "Software Engineer",
+      "background": "An early adopter of fintech who already uses international apps like Binance or Robinhood but wants a local solution tailored to the Mongolian market and local stocks/funds.",
+      "goals": [
+        "Access a diversified portfolio of Mongolian assets in one click",
+        "Automate monthly deposits directly from his salary account",
+        "Track real-time performance and portfolio growth via a clean dashboard"
+      ],
+      "frustrations": [
+        "Slow transaction processing times between local banks and investment accounts",
+        "Apps that don't support biometric login (FaceID/Fingerprint)",
+        "Lack of advanced data visualization for his portfolio distribution"
+      ],
+      "behaviors": [
+        "Optimizes his finances for efficiency and automation",
+        "Shares referral links with his tech-savvy colleagues to earn bonuses",
+        "Frequently toggles between light and dark modes depending on the time of day"
+      ],
+      "technicalLevel": "advanced",
+      "frequency": "weekly",
+      "devices": [
+        "mobile",
+        "tablet"
+      ],
+      "accessibility": [
+        "Prefers dark mode to reduce eye strain during night-time usage"
+      ]
+    }
+  ],
+  "userStories": [
+    {
+      "id": "ST-001",
+      "personaId": "persona-anar",
+      "epic": "Conversion & App Acquisition",
+      "title": "Hero Section App Download",
+      "story": "As Anar Battulga, I want to see clear 'Download App' buttons immediately upon landing on the page so that I can install the application without searching for it.",
+      "acceptanceCriteria": [
+        "Given the user is on a mobile device, when they view the hero section, then they see the App Store (iOS) and Play Store (Android) badges.",
+        "Given the user clicks a store badge, when the action triggers, then they are redirected to the specific Negdi app page on the respective store.",
+        "Given the user is on the hero section, when the page loads, then the primary headline clearly mentions investing with as little as 'spare change'.",
+        "Given the user views the hero image, when displayed, then it shows a high-quality mockup of the mobile app interface."
+      ],
+      "priority": "must-have",
+      "estimatedComplexity": "low",
+      "dependencies": [],
+      "status": "draft"
+    },
+    {
+      "id": "ST-002",
+      "personaId": "persona-ganbat",
+      "epic": "Trust, Legal & Compliance",
+      "title": "Regulatory & Partner Verification",
+      "story": "As Ganbat Sukhbaatar, I want to see the logos of partner banks and the Financial Regulatory Commission (FRC) license number so that I can verify Negdi is a legal entity before depositing money.",
+      "acceptanceCriteria": [
+        "Given the footer or a dedicated 'Trust' section, when viewed, then the logo of the custodial bank/clearing partner is clearly visible.",
+        "Given the legal section, when viewed, then the specific FRC license number and company registration number are displayed as text.",
+        "Given a user clicks on the legal disclaimer, when the action occurs, then they are linked to the official FRC website or a PDF of the license.",
+        "Given the trust section, when loaded, then a statement regarding asset separation (custodian accounts) is visible."
+      ],
+      "priority": "must-have",
+      "estimatedComplexity": "low",
+      "dependencies": [],
+      "status": "draft"
+    },
+    {
+      "id": "ST-003",
+      "personaId": "persona-anar",
+      "epic": "Education & Value Proposition",
+      "title": "Micro-Investing Mechanism Explainer",
+      "story": "As Anar Battulga, I want to see a visual step-by-step guide on how 'spare change' investing works so that I understand how small daily transactions turn into investments.",
+      "acceptanceCriteria": [
+        "Given the 'How it Works' section, when viewed, then there is a visual graphic showing a transaction (e.g., Coffee 5,500 MNT) being rounded up to 6,000 MNT.",
+        "Given the graphic, when the animation or flow completes, then it highlights the 500 MNT difference moving into an investment portfolio.",
+        "Given the explanation text, when read, then it avoids complex financial jargon and uses simple Mongolian terms.",
+        "Given the section bottom, when reached, then a 'Start with 20,000 MNT' CTA button is displayed."
+      ],
+      "priority": "should-have",
+      "estimatedComplexity": "medium",
+      "dependencies": [],
+      "status": "draft"
+    },
+    {
+      "id": "ST-004",
+      "personaId": "persona-saruul",
+      "epic": "Conversion & App Acquisition",
+      "title": "Desktop to Mobile QR Bridge",
+      "story": "As Saruul Zorig, I want to see a QR code when browsing the landing page on my laptop so that I can quickly download the app on my phone without typing the URL manually.",
+      "acceptanceCriteria": [
+        "Given the user is browsing on a desktop viewport (>1024px), when the page loads, then a dynamic QR code is visible in the navigation bar or hero section.",
+        "Given the user scans the QR code with a mobile camera, when scanned, then the device opens a dynamic link that routes to the correct app store based on OS.",
+        "Given the user is on a mobile device (<768px), when the page loads, then the QR code element is hidden to save screen space.",
+        "Given the QR code section, when hovered, then a tooltip text 'Scan to Download' appears."
+      ],
+      "priority": "should-have",
+      "estimatedComplexity": "medium",
+      "dependencies": [
+        "ST-001"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "ST-005",
+      "personaId": "persona-saruul",
+      "epic": "Education & Value Proposition",
+      "title": "Portfolio Asset Diversification View",
+      "story": "As Saruul Zorig, I want to see a breakdown of the asset classes (Mongolian stocks, bonds, funds) available in the app so that I know my portfolio will be diversified.",
+      "acceptanceCriteria": [
+        "Given the 'Features' section, when scrolled to, then a pie chart or list visualizes the asset mix (e.g., Top 20 MSE stocks, Government Bonds).",
+        "Given the asset list, when interactively hovered or tapped, then brief details about the return potential (ROI) for that asset class appear.",
+        "Given the portfolio description, when read, then it mentions 'One-click diversification' as a key benefit.",
+        "Given the UI, when displayed, then it clarifies that the user owns fractional shares of these assets."
+      ],
+      "priority": "should-have",
+      "estimatedComplexity": "medium",
+      "dependencies": [],
+      "status": "draft"
+    },
+    {
+      "id": "ST-006",
+      "personaId": "persona-ganbat",
+      "epic": "Trust, Legal & Compliance",
+      "title": "Data Security & Encryption Info",
+      "story": "As Ganbat Sukhbaatar, I want to read about the security measures protecting my personal data so that I feel safe linking my bank account.",
+      "acceptanceCriteria": [
+        "Given the 'Security' section, when viewed, then it displays icons representing SSL encryption and Bank-grade security standards.",
+        "Given the content, when read, then it explicitly states that Negdi does not store bank login credentials directly.",
+        "Given the security badges, when clicked, then they provide a brief tooltip or modal explaining the specific security standard.",
+        "Given the privacy policy link, when clicked, then it opens a readable summary of how user data is processed."
+      ],
+      "priority": "must-have",
+      "estimatedComplexity": "low",
+      "dependencies": [],
+      "status": "draft"
+    },
+    {
+      "id": "ST-007",
+      "personaId": "persona-saruul",
+      "epic": "Education & Value Proposition",
+      "title": "Automated Deposit Feature Highlight",
+      "story": "As Saruul Zorig, I want to understand the 'Set and Forget' automation features so that I can plan my monthly salary deductions.",
+      "acceptanceCriteria": [
+        "Given the Features section, when viewing 'Automation', then it illustrates the concept of recurring deposits (e.g., Monthly Salary -> Auto Invest).",
+        "Given the description, when read, then it clarifies that users can pause or change the amount at any time.",
+        "Given the visual aid, when viewed, then it shows a calendar icon or a timeline of growth over 12 months.",
+        "Given the section CTA, when clicked, then it deep-links to the automation setup tutorial (or app download if not installed)."
+      ],
+      "priority": "should-have",
+      "estimatedComplexity": "medium",
+      "dependencies": [],
+      "status": "draft"
+    },
+    {
+      "id": "ST-008",
+      "personaId": "persona-ganbat",
+      "epic": "Education & Value Proposition",
+      "title": "FAQ & Support Access",
+      "story": "As Ganbat Sukhbaatar, I want to find answers to common questions about withdrawals and fees so that I am not surprised by hidden costs later.",
+      "acceptanceCriteria": [
+        "Given the FAQ accordion, when the 'Fees' question is expanded, then a clear table of fees (subscription vs transaction) is displayed.",
+        "Given the 'Withdrawal' question, when expanded, then it explains the timeline (e.g., T+2 days) for getting money back into the bank account.",
+        "Given the user cannot find an answer, when they look at the bottom right, then a 'Contact Support' or Chat bubble is available.",
+        "Given the support link, when clicked, then it opens the Facebook Messenger integration or email client."
+      ],
+      "priority": "could-have",
+      "estimatedComplexity": "low",
+      "dependencies": [],
+      "status": "draft"
+    },
+    {
+      "id": "ST-009",
+      "personaId": "persona-anar",
+      "epic": "Trust, Legal & Compliance",
+      "title": "Social Proof & Statistics",
+      "story": "As Anar Battulga, I want to see the number of active users or total MNT invested so that I feel confident that others are successfully using the platform.",
+      "acceptanceCriteria": [
+        "Given the 'Community' section, when viewed, then a counter shows 'X,XXX Active Users' or 'X Billion MNT Invested'.",
+        "Given the statistics, when displayed, then they are rounded numbers that update periodically (not real-time streaming).",
+        "Given the section design, when viewed, then it includes 2-3 short testimonials from users similar to Anar (students/young professionals).",
+        "Given the testimonials, when read, then they highlight the ease of use or the 'spare change' feature."
+      ],
+      "priority": "could-have",
+      "estimatedComplexity": "low",
+      "dependencies": [],
+      "status": "draft"
+    },
+    {
+      "id": "ST-010",
+      "personaId": "persona-anar",
+      "epic": "Conversion & App Acquisition",
+      "title": "Sticky Mobile Download CTA",
+      "story": "As Anar Battulga, I want a 'Download App' button to remain visible while I scroll down the page on my phone so that I can convert the moment I am convinced.",
+      "acceptanceCriteria": [
+        "Given the user scrolls past the hero section on mobile, when the scroll event triggers, then a sticky bar appears at the bottom or top of the viewport.",
+        "Given the sticky bar, when viewed, then it contains a prominent 'Get App' button.",
+        "Given the button, when clicked, then it uses the same dynamic routing logic as the hero buttons (Story ST-001).",
+        "Given the user is on a desktop, when scrolling, then the sticky bar is either hidden or replaced by a sticky header navigation with a download button."
+      ],
+      "priority": "must-have",
+      "estimatedComplexity": "medium",
+      "dependencies": [
+        "ST-001"
+      ],
+      "status": "draft"
+    }
+  ],
+  "epics": [
+    "Conversion & App Acquisition",
+    "Trust, Legal & Compliance",
+    "Education & Value Proposition",
+    "Technical Performance & Accessibility"
+  ],
+  "createdAt": 1772012831674,
+  "updatedAt": 1772012831674,
+  "version": 1
+}
